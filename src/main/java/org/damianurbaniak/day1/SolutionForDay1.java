@@ -9,7 +9,8 @@ import java.util.List;
 
 public class SolutionForDay1 {
     public static void main(String[] args) throws FileNotFoundException {
-        final List<Integer> listToProcess = ConvertInputDay1.inputForDay1("src/main/java/org/damianurbaniak/day1/inputDay1");
+        final List<Integer> listToProcess =
+                ConvertInputDay1.inputForDay1("src/main/java/org/damianurbaniak/day1/inputDay1");
         final Solutions solutions = SolvingMethodsDay1.finalResult(listToProcess);
 
         System.out.println(Message.FIRST_PART_SOLUTION.getMessage());
